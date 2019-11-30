@@ -1,7 +1,6 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.JsonMapper
 import net.adoptopenjdk.api.v3.dataSources.APIDataStore
 import net.adoptopenjdk.api.v3.dataSources.ApiPersistenceFactory
 import org.junit.jupiter.api.Test

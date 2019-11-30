@@ -1,9 +1,6 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.AdoptReposBuilder
-import net.adoptopenjdk.api.v3.HttpClientFactory
-import net.adoptopenjdk.api.v3.JsonMapper
 import net.adoptopenjdk.api.v3.models.Variants
 import java.io.File
 import java.util.zip.GZIPOutputStream

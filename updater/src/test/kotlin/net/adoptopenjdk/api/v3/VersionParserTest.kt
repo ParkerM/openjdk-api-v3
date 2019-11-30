@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import net.adoptopenjdk.api.v3.models.VersionData
 import net.adoptopenjdk.api.v3.parser.VersionParser

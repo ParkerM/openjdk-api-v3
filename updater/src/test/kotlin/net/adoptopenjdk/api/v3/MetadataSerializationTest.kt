@@ -1,7 +1,6 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import io.vertx.core.json.JsonObject
-import net.adoptopenjdk.api.v3.JsonMapper
 import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHMetaData
 import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHVersion
 import net.adoptopenjdk.api.v3.models.Architecture

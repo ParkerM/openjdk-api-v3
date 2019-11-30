@@ -1,8 +1,6 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.AdoptReposBuilder
-import net.adoptopenjdk.api.v3.AdoptRepositoryFactory
 import net.adoptopenjdk.api.v3.models.Release
 import net.adoptopenjdk.api.v3.models.ReleaseType
 import net.adoptopenjdk.api.v3.models.Vendor

@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import de.flapdoodle.embed.mongo.MongodExecutable
 import de.flapdoodle.embed.mongo.MongodStarter
@@ -9,7 +9,6 @@ import de.flapdoodle.embed.process.runtime.Network
 import io.mockk.every
 import io.mockk.junit5.MockKExtension
 import io.mockk.mockk
-import net.adoptopenjdk.api.v3.*
 import net.adoptopenjdk.api.v3.dataSources.APIDataStore
 import net.adoptopenjdk.api.v3.dataSources.ApiPersistenceFactory
 import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.PageInfo

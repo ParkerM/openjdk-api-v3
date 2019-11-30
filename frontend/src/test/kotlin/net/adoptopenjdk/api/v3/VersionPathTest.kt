@@ -1,8 +1,7 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import io.quarkus.test.junit.QuarkusTest
 import io.restassured.RestAssured
-import net.adoptopenjdk.api.v3.JsonMapper
 import net.adoptopenjdk.api.v3.models.VersionData
 import net.adoptopenjdk.api.v3.parser.VersionParser
 import org.hamcrest.Description

@@ -1,9 +1,8 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import io.quarkus.test.junit.QuarkusTest
 import io.restassured.RestAssured
 import junit.framework.Assert.fail
-import net.adoptopenjdk.api.v3.JsonMapper
 import net.adoptopenjdk.api.v3.dataSources.SortOrder
 import net.adoptopenjdk.api.v3.models.Architecture
 import net.adoptopenjdk.api.v3.models.ImageType

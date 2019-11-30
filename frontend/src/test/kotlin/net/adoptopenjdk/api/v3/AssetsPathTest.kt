@@ -1,9 +1,8 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import io.quarkus.test.junit.QuarkusTest
 import io.restassured.RestAssured
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.AdoptReposBuilder
 import net.adoptopenjdk.api.v3.dataSources.APIDataStore
 import net.adoptopenjdk.api.v3.dataSources.ApiPersistenceFactory
 import net.adoptopenjdk.api.v3.models.*

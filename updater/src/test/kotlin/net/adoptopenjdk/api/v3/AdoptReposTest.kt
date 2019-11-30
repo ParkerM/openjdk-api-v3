@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.v3
 
 import kotlinx.coroutines.runBlocking
 import net.adoptopenjdk.api.v3.dataSources.models.FeatureRelease
