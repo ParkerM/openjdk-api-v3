@@ -1,6 +1,8 @@
 .mvn
+.gradle
 .iml
 target/
+build/
 adoptopenjdk-api.iml
 .idea
 *.iml
