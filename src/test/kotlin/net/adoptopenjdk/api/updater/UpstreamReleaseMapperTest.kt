@@ -1,11 +1,11 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHAsset
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHAssets
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHRelease
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.PageInfo
-import net.adoptopenjdk.api.v3.mapping.upstream.UpstreamReleaseMapper
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHAsset
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHAssets
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHRelease
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.PageInfo
+import net.adoptopenjdk.api.updater.mapping.upstream.UpstreamReleaseMapper
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

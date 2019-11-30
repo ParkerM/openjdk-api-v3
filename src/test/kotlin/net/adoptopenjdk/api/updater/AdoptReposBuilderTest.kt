@@ -1,12 +1,10 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.AdoptReposBuilder
-import net.adoptopenjdk.api.v3.AdoptRepositoryFactory
-import net.adoptopenjdk.api.v3.models.Release
-import net.adoptopenjdk.api.v3.models.ReleaseType
-import net.adoptopenjdk.api.v3.models.Vendor
-import net.adoptopenjdk.api.v3.models.VersionData
+import net.adoptopenjdk.api.models.models.Release
+import net.adoptopenjdk.api.models.models.ReleaseType
+import net.adoptopenjdk.api.models.models.Vendor
+import net.adoptopenjdk.api.models.models.VersionData
 import org.junit.jupiter.api.Test
 import java.time.LocalDateTime
 import kotlin.test.assertTrue

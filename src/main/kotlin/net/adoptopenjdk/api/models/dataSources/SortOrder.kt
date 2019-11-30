@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3.dataSources
+package net.adoptopenjdk.api.models.dataSources
 
 import org.eclipse.microprofile.openapi.annotations.enums.SchemaType
 import org.eclipse.microprofile.openapi.annotations.media.Schema

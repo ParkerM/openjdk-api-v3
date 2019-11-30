@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3.dataSources.github.graphql.clients
+package net.adoptopenjdk.api.updater.dataSources.github.graphql.clients
 
 import io.aexp.nodes.graphql.GraphQLRequestEntity
 import io.aexp.nodes.graphql.GraphQLResponseEntity
@@ -8,7 +8,7 @@ import io.aexp.nodes.graphql.exceptions.GraphQLException
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.HasRateLimit
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.HasRateLimit
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.nio.file.Files

@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3.models
+package net.adoptopenjdk.api.models.models
 
 import com.fasterxml.jackson.annotation.JsonCreator
 import org.eclipse.microprofile.openapi.annotations.enums.SchemaType

@@ -1,8 +1,8 @@
-package net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary
+package net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary
 
 import com.fasterxml.jackson.annotation.JsonCreator
 import com.fasterxml.jackson.annotation.JsonProperty
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.PageInfo
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.PageInfo
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 

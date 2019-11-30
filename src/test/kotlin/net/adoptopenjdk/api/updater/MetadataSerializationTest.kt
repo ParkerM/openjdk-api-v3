@@ -1,12 +1,12 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import io.vertx.core.json.JsonObject
-import net.adoptopenjdk.api.v3.JsonMapper
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHMetaData
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHVersion
-import net.adoptopenjdk.api.v3.models.Architecture
-import net.adoptopenjdk.api.v3.models.ImageType
-import net.adoptopenjdk.api.v3.models.OperatingSystem
+import net.adoptopenjdk.api.persistence.JsonMapper
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHMetaData
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHVersion
+import net.adoptopenjdk.api.models.models.Architecture
+import net.adoptopenjdk.api.models.models.ImageType
+import net.adoptopenjdk.api.models.models.OperatingSystem
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

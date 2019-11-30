@@ -1,13 +1,13 @@
-package net.adoptopenjdk.api.v3.dataSources.persitence.mongo
+package net.adoptopenjdk.api.persistence.dataSources.persitence.mongo
 
 import com.mongodb.client.model.InsertManyOptions
 import com.mongodb.reactivestreams.client.ClientSession
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.dataSources.models.AdoptRepos
-import net.adoptopenjdk.api.v3.dataSources.models.FeatureRelease
-import net.adoptopenjdk.api.v3.dataSources.models.Releases
-import net.adoptopenjdk.api.v3.dataSources.persitence.ApiPersistence
-import net.adoptopenjdk.api.v3.models.Release
+import net.adoptopenjdk.api.models.dataSources.models.AdoptRepos
+import net.adoptopenjdk.api.models.dataSources.models.FeatureRelease
+import net.adoptopenjdk.api.models.dataSources.models.Releases
+import net.adoptopenjdk.api.persistence.dataSources.persitence.ApiPersistence
+import net.adoptopenjdk.api.models.models.Release
 import org.bson.Document
 import org.litote.kmongo.coroutine.CoroutineClient
 import org.litote.kmongo.coroutine.CoroutineCollection

@@ -1,11 +1,11 @@
-package net.adoptopenjdk.api.v3.dataSources.github.graphql.clients
+package net.adoptopenjdk.api.updater.dataSources.github.graphql.clients
 
 import io.aexp.nodes.graphql.GraphQLRequestEntity
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.PageInfo
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.QuerySummaryData
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHReleaseSummary
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHReleasesSummary
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHRepositorySummary
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.PageInfo
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.QuerySummaryData
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHReleaseSummary
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHReleasesSummary
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHRepositorySummary
 import org.slf4j.LoggerFactory
 
 

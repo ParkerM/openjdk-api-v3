@@ -1,8 +1,8 @@
-package net.adoptopenjdk.api.v3.dataSources.github
+package net.adoptopenjdk.api.updater.dataSources.github
 
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHRelease
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHRepository
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHRepositorySummary
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHRelease
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHRepository
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHRepositorySummary
 
 interface GitHubApi {
     suspend fun getRepository(repoName: String): GHRepository

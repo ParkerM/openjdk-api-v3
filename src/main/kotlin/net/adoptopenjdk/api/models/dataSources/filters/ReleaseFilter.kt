@@ -1,8 +1,8 @@
-package net.adoptopenjdk.api.v3.dataSources.filters
+package net.adoptopenjdk.api.models.dataSources.filters
 
-import net.adoptopenjdk.api.v3.models.Release
-import net.adoptopenjdk.api.v3.models.ReleaseType
-import net.adoptopenjdk.api.v3.models.Vendor
+import net.adoptopenjdk.api.models.models.Release
+import net.adoptopenjdk.api.models.models.ReleaseType
+import net.adoptopenjdk.api.models.models.Vendor
 import java.util.function.Predicate
 
 class ReleaseFilter(private val releaseType: ReleaseType?,

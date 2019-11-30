@@ -1,12 +1,12 @@
-package net.adoptopenjdk.api.v3.dataSources.github.graphql
+package net.adoptopenjdk.api.updater.dataSources.github.graphql
 
-import net.adoptopenjdk.api.v3.dataSources.github.GitHubApi
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.clients.GraphQLGitHubReleaseClient
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.clients.GraphQLGitHubRepositoryClient
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.clients.GraphQLGitHubSummaryClient
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHRelease
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHRepository
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHRepositorySummary
+import net.adoptopenjdk.api.updater.dataSources.github.GitHubApi
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.clients.GraphQLGitHubReleaseClient
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.clients.GraphQLGitHubRepositoryClient
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.clients.GraphQLGitHubSummaryClient
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHRelease
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHRepository
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHRepositorySummary
 
 
 class GraphQLGitHubClient : GitHubApi {

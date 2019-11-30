@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3
+package net.adoptopenjdk.api.frontend
 
 object OpenApiDocs {
 

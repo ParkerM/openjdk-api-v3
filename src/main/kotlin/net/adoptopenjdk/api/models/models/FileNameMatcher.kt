@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3.models
+package net.adoptopenjdk.api.models.models
 
 interface FileNameMatcher {
     var names: List<String>

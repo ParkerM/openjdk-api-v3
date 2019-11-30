@@ -1,6 +1,6 @@
-package net.adoptopenjdk.api.v3.parser
+package net.adoptopenjdk.api.models.parser
 
-import net.adoptopenjdk.api.v3.models.VersionData
+import net.adoptopenjdk.api.models.models.VersionData
 import org.slf4j.LoggerFactory
 import java.util.*
 import java.util.regex.Matcher

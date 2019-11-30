@@ -1,7 +1,7 @@
-package net.adoptopenjdk.api.v3.dataSources.persitence
+package net.adoptopenjdk.api.persistence.dataSources.persitence
 
-import net.adoptopenjdk.api.v3.dataSources.models.AdoptRepos
-import net.adoptopenjdk.api.v3.dataSources.models.FeatureRelease
+import net.adoptopenjdk.api.models.dataSources.models.AdoptRepos
+import net.adoptopenjdk.api.models.dataSources.models.FeatureRelease
 
 interface ApiPersistence {
     suspend fun updateAllRepos(repos: AdoptRepos)

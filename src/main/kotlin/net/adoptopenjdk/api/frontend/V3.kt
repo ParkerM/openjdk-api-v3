@@ -1,12 +1,12 @@
-package net.adoptopenjdk.api.v3
+package net.adoptopenjdk.api.frontend
 
-import net.adoptopenjdk.api.v3.routes.AssetsResource
-import net.adoptopenjdk.api.v3.routes.BinaryResource
-import net.adoptopenjdk.api.v3.routes.VersionResource
-import net.adoptopenjdk.api.v3.routes.info.AvailableReleasesResource
-import net.adoptopenjdk.api.v3.routes.info.PlatformsResource
-import net.adoptopenjdk.api.v3.routes.info.ReleaseListResource
-import net.adoptopenjdk.api.v3.routes.info.VariantsResource
+import net.adoptopenjdk.api.frontend.routes.AssetsResource
+import net.adoptopenjdk.api.frontend.routes.BinaryResource
+import net.adoptopenjdk.api.frontend.routes.VersionResource
+import net.adoptopenjdk.api.frontend.routes.info.AvailableReleasesResource
+import net.adoptopenjdk.api.frontend.routes.info.PlatformsResource
+import net.adoptopenjdk.api.frontend.routes.info.ReleaseListResource
+import net.adoptopenjdk.api.frontend.routes.info.VariantsResource
 import org.eclipse.microprofile.openapi.annotations.OpenAPIDefinition
 import org.eclipse.microprofile.openapi.annotations.info.Info
 import org.eclipse.microprofile.openapi.annotations.servers.Server

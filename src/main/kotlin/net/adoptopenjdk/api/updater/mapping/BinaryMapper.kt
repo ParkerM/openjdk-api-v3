@@ -1,7 +1,7 @@
-package net.adoptopenjdk.api.v3.mapping
+package net.adoptopenjdk.api.updater.mapping
 
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHAsset
-import net.adoptopenjdk.api.v3.models.FileNameMatcher
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHAsset
+import net.adoptopenjdk.api.models.models.FileNameMatcher
 import java.time.Instant
 import java.time.LocalDateTime
 import java.time.ZoneId

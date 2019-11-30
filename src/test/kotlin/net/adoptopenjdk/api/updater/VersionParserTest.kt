@@ -1,7 +1,7 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
-import net.adoptopenjdk.api.v3.models.VersionData
-import net.adoptopenjdk.api.v3.parser.VersionParser
+import net.adoptopenjdk.api.models.models.VersionData
+import net.adoptopenjdk.api.models.parser.VersionParser
 import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
 import java.net.URLDecoder

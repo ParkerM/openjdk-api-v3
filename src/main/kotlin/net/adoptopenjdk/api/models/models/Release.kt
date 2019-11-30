@@ -1,8 +1,8 @@
-package net.adoptopenjdk.api.v3.models
+package net.adoptopenjdk.api.models.models
 
 import com.fasterxml.jackson.annotation.JsonCreator
 import com.fasterxml.jackson.annotation.JsonProperty
-import net.adoptopenjdk.api.v3.dataSources.filters.BinaryFilter
+import net.adoptopenjdk.api.models.dataSources.filters.BinaryFilter
 import org.eclipse.microprofile.openapi.annotations.enums.SchemaType
 import org.eclipse.microprofile.openapi.annotations.media.Schema
 import java.time.LocalDateTime

@@ -1,6 +1,6 @@
-package net.adoptopenjdk.api.v3.dataSources.filters
+package net.adoptopenjdk.api.models.dataSources.filters
 
-import net.adoptopenjdk.api.v3.models.VersionData
+import net.adoptopenjdk.api.models.models.VersionData
 import org.apache.maven.artifact.versioning.DefaultArtifactVersion
 import org.apache.maven.artifact.versioning.VersionRange
 import java.util.function.Predicate

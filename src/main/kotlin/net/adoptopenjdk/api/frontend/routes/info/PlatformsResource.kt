@@ -1,7 +1,7 @@
-package net.adoptopenjdk.api.v3.routes.info
+package net.adoptopenjdk.api.frontend.routes.info
 
-import net.adoptopenjdk.api.v3.dataSources.APIDataStore
-import net.adoptopenjdk.api.v3.models.Platforms
+import net.adoptopenjdk.api.persistence.dataSources.APIDataStore
+import net.adoptopenjdk.api.models.models.Platforms
 import org.eclipse.microprofile.openapi.annotations.Operation
 import org.eclipse.microprofile.openapi.annotations.tags.Tag
 import javax.ws.rs.GET

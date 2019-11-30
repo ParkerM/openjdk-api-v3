@@ -1,8 +1,8 @@
-package net.adoptopenjdk.api.v3.routes
+package net.adoptopenjdk.api.frontend.routes
 
-import net.adoptopenjdk.api.v3.models.VersionData
-import net.adoptopenjdk.api.v3.parser.FailedToParse
-import net.adoptopenjdk.api.v3.parser.VersionParser
+import net.adoptopenjdk.api.models.models.VersionData
+import net.adoptopenjdk.api.models.parser.FailedToParse
+import net.adoptopenjdk.api.models.parser.VersionParser
 import org.eclipse.microprofile.openapi.annotations.Operation
 import org.eclipse.microprofile.openapi.annotations.parameters.Parameter
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse

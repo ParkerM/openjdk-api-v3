@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import de.flapdoodle.embed.mongo.MongodExecutable
 import de.flapdoodle.embed.mongo.MongodStarter
@@ -9,16 +9,16 @@ import de.flapdoodle.embed.process.runtime.Network
 import io.mockk.every
 import io.mockk.junit5.MockKExtension
 import io.mockk.mockk
-import net.adoptopenjdk.api.v3.*
-import net.adoptopenjdk.api.v3.dataSources.APIDataStore
-import net.adoptopenjdk.api.v3.dataSources.ApiPersistenceFactory
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.PageInfo
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHReleaseSummary
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHReleasesSummary
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHRepositorySummary
-import net.adoptopenjdk.api.v3.dataSources.models.AdoptRepos
-import net.adoptopenjdk.api.v3.dataSources.models.FeatureRelease
-import net.adoptopenjdk.api.v3.models.Release
+import net.adoptopenjdk.api.models.models.*
+import net.adoptopenjdk.api.persistence.dataSources.APIDataStore
+import net.adoptopenjdk.api.persistence.dataSources.ApiPersistenceFactory
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.PageInfo
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHReleaseSummary
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHReleasesSummary
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHRepositorySummary
+import net.adoptopenjdk.api.models.dataSources.models.AdoptRepos
+import net.adoptopenjdk.api.models.dataSources.models.FeatureRelease
+import net.adoptopenjdk.api.persistence.JsonMapper
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.extension.ExtendWith

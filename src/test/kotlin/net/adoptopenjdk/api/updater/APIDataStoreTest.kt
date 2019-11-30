@@ -1,9 +1,9 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.JsonMapper
-import net.adoptopenjdk.api.v3.dataSources.APIDataStore
-import net.adoptopenjdk.api.v3.dataSources.ApiPersistenceFactory
+import net.adoptopenjdk.api.persistence.JsonMapper
+import net.adoptopenjdk.api.persistence.dataSources.APIDataStore
+import net.adoptopenjdk.api.persistence.dataSources.ApiPersistenceFactory
 import org.junit.jupiter.api.Test
 import org.skyscreamer.jsonassert.JSONAssert
 import org.slf4j.LoggerFactory

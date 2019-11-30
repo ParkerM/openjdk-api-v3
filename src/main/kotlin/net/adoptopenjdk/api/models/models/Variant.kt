@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3.models
+package net.adoptopenjdk.api.models.models
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

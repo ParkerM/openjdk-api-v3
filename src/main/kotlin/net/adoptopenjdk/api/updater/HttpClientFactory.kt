@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3
+package net.adoptopenjdk.api.updater
 
 import java.net.http.HttpClient
 import java.time.Duration

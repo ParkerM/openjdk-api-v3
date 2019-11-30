@@ -1,14 +1,14 @@
-package net.adoptopenjdk.api.v3.mapping.upstream
+package net.adoptopenjdk.api.updater.mapping.upstream
 
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHRelease
-import net.adoptopenjdk.api.v3.mapping.ReleaseMapper
-import net.adoptopenjdk.api.v3.models.Release
-import net.adoptopenjdk.api.v3.models.ReleaseType
-import net.adoptopenjdk.api.v3.models.SourcePackage
-import net.adoptopenjdk.api.v3.models.Vendor
-import net.adoptopenjdk.api.v3.models.VersionData
-import net.adoptopenjdk.api.v3.parser.FailedToParse
-import net.adoptopenjdk.api.v3.parser.VersionParser
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHRelease
+import net.adoptopenjdk.api.updater.mapping.ReleaseMapper
+import net.adoptopenjdk.api.models.models.Release
+import net.adoptopenjdk.api.models.models.ReleaseType
+import net.adoptopenjdk.api.models.models.SourcePackage
+import net.adoptopenjdk.api.models.models.Vendor
+import net.adoptopenjdk.api.models.models.VersionData
+import net.adoptopenjdk.api.models.parser.FailedToParse
+import net.adoptopenjdk.api.models.parser.VersionParser
 import org.slf4j.LoggerFactory
 import java.net.URLDecoder
 import java.nio.charset.Charset

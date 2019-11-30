@@ -1,11 +1,11 @@
-package net.adoptopenjdk.api.v3.dataSources.models
+package net.adoptopenjdk.api.models.dataSources.models
 
 import com.fasterxml.jackson.annotation.JsonCreator
 import com.fasterxml.jackson.annotation.JsonIgnore
 import com.fasterxml.jackson.annotation.JsonProperty
-import net.adoptopenjdk.api.v3.dataSources.SortOrder
-import net.adoptopenjdk.api.v3.dataSources.filters.ReleaseFilter
-import net.adoptopenjdk.api.v3.models.Release
+import net.adoptopenjdk.api.models.dataSources.SortOrder
+import net.adoptopenjdk.api.models.dataSources.filters.ReleaseFilter
+import net.adoptopenjdk.api.models.models.Release
 import java.time.LocalDateTime
 import java.util.*
 import kotlin.Comparator

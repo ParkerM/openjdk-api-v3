@@ -1,9 +1,9 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.dataSources.models.FeatureRelease
-import net.adoptopenjdk.api.v3.dataSources.models.Releases
-import net.adoptopenjdk.api.v3.models.*
+import net.adoptopenjdk.api.models.dataSources.models.FeatureRelease
+import net.adoptopenjdk.api.models.dataSources.models.Releases
+import net.adoptopenjdk.api.models.models.*
 import org.junit.jupiter.api.Test
 import java.time.LocalDateTime
 import kotlin.test.assertTrue

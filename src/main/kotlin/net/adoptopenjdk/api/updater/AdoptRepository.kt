@@ -1,18 +1,18 @@
-package net.adoptopenjdk.api.v3
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.GraphQLGitHubClient
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.PageInfo
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHReleasesSummary
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHRepositorySummary
-import net.adoptopenjdk.api.v3.dataSources.models.AdoptRepo
-import net.adoptopenjdk.api.v3.dataSources.models.FeatureRelease
-import net.adoptopenjdk.api.v3.mapping.ReleaseMapper
-import net.adoptopenjdk.api.v3.mapping.adopt.AdoptReleaseMapper
-import net.adoptopenjdk.api.v3.mapping.upstream.UpstreamReleaseMapper
-import net.adoptopenjdk.api.v3.models.Release
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.GraphQLGitHubClient
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.PageInfo
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHReleasesSummary
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHRepositorySummary
+import net.adoptopenjdk.api.models.dataSources.models.AdoptRepo
+import net.adoptopenjdk.api.models.dataSources.models.FeatureRelease
+import net.adoptopenjdk.api.updater.mapping.ReleaseMapper
+import net.adoptopenjdk.api.updater.mapping.adopt.AdoptReleaseMapper
+import net.adoptopenjdk.api.updater.mapping.upstream.UpstreamReleaseMapper
+import net.adoptopenjdk.api.models.models.Release
 import org.slf4j.LoggerFactory
 
 object AdoptRepositoryFactory {

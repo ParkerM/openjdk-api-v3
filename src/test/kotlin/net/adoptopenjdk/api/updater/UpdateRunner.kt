@@ -1,12 +1,9 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.AdoptRepositoryFactory
-import net.adoptopenjdk.api.v3.AdoptRepositoryImpl
-import net.adoptopenjdk.api.v3.V3Updater
-import net.adoptopenjdk.api.v3.dataSources.APIDataStore
-import net.adoptopenjdk.api.v3.dataSources.ApiPersistenceFactory
-import net.adoptopenjdk.api.v3.models.Release
+import net.adoptopenjdk.api.persistence.dataSources.APIDataStore
+import net.adoptopenjdk.api.persistence.dataSources.ApiPersistenceFactory
+import net.adoptopenjdk.api.models.models.Release
 import org.awaitility.Awaitility
 import org.junit.Ignore
 import org.junit.jupiter.api.Test

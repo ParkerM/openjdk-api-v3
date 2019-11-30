@@ -1,10 +1,10 @@
-package net.adoptopenjdk.api.v3
+package net.adoptopenjdk.api.updater
 
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.summary.GHRepositorySummary
-import net.adoptopenjdk.api.v3.dataSources.models.AdoptRepos
-import net.adoptopenjdk.api.v3.dataSources.models.FeatureRelease
-import net.adoptopenjdk.api.v3.dataSources.models.Releases
-import net.adoptopenjdk.api.v3.models.Release
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.summary.GHRepositorySummary
+import net.adoptopenjdk.api.models.dataSources.models.AdoptRepos
+import net.adoptopenjdk.api.models.dataSources.models.FeatureRelease
+import net.adoptopenjdk.api.models.dataSources.models.Releases
+import net.adoptopenjdk.api.models.models.Release
 import org.slf4j.LoggerFactory
 
 object AdoptReposBuilder {

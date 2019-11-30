@@ -1,11 +1,12 @@
-package net.adoptopenjdk.api.v3
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.dataSources.APIDataStore
-import net.adoptopenjdk.api.v3.dataSources.ApiPersistenceFactory
-import net.adoptopenjdk.api.v3.dataSources.models.AdoptRepos
-import net.adoptopenjdk.api.v3.dataSources.persitence.ApiPersistence
-import net.adoptopenjdk.api.v3.models.Variants
+import net.adoptopenjdk.api.persistence.dataSources.APIDataStore
+import net.adoptopenjdk.api.persistence.dataSources.ApiPersistenceFactory
+import net.adoptopenjdk.api.models.dataSources.models.AdoptRepos
+import net.adoptopenjdk.api.persistence.dataSources.persitence.ApiPersistence
+import net.adoptopenjdk.api.models.models.Variants
+import net.adoptopenjdk.api.persistence.JsonMapper
 import org.slf4j.LoggerFactory
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit

@@ -1,7 +1,7 @@
-package net.adoptopenjdk.api.v3.dataSources
+package net.adoptopenjdk.api.persistence.dataSources
 
-import net.adoptopenjdk.api.v3.dataSources.persitence.ApiPersistence
-import net.adoptopenjdk.api.v3.dataSources.persitence.mongo.MongoApiPersistence
+import net.adoptopenjdk.api.persistence.dataSources.persitence.ApiPersistence
+import net.adoptopenjdk.api.persistence.dataSources.persitence.mongo.MongoApiPersistence
 
 
 object ApiPersistenceFactory {

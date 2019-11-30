@@ -1,16 +1,16 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHAsset
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHMetaData
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHVersion
-import net.adoptopenjdk.api.v3.mapping.adopt.AdoptBinaryMapper
-import net.adoptopenjdk.api.v3.models.Architecture
-import net.adoptopenjdk.api.v3.models.Binary
-import net.adoptopenjdk.api.v3.models.ImageType
-import net.adoptopenjdk.api.v3.models.JvmImpl
-import net.adoptopenjdk.api.v3.models.OperatingSystem
-import net.adoptopenjdk.api.v3.models.Project
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHAsset
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHMetaData
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHVersion
+import net.adoptopenjdk.api.updater.mapping.adopt.AdoptBinaryMapper
+import net.adoptopenjdk.api.models.models.Architecture
+import net.adoptopenjdk.api.models.models.Binary
+import net.adoptopenjdk.api.models.models.ImageType
+import net.adoptopenjdk.api.models.models.JvmImpl
+import net.adoptopenjdk.api.models.models.OperatingSystem
+import net.adoptopenjdk.api.models.models.Project
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

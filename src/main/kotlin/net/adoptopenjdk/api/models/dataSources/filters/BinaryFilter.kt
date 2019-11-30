@@ -1,6 +1,6 @@
-package net.adoptopenjdk.api.v3.dataSources.filters
+package net.adoptopenjdk.api.models.dataSources.filters
 
-import net.adoptopenjdk.api.v3.models.*
+import net.adoptopenjdk.api.models.models.*
 import java.util.function.Predicate
 
 class BinaryFilter(

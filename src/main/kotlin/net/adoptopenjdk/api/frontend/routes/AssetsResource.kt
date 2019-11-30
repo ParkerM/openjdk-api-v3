@@ -1,12 +1,12 @@
-package net.adoptopenjdk.api.v3.routes
+package net.adoptopenjdk.api.frontend.routes
 
-import net.adoptopenjdk.api.v3.OpenApiDocs
-import net.adoptopenjdk.api.v3.dataSources.APIDataStore
-import net.adoptopenjdk.api.v3.dataSources.SortOrder
-import net.adoptopenjdk.api.v3.dataSources.filters.BinaryFilter
-import net.adoptopenjdk.api.v3.dataSources.filters.ReleaseFilter
-import net.adoptopenjdk.api.v3.dataSources.filters.VersionRangeFilter
-import net.adoptopenjdk.api.v3.models.*
+import net.adoptopenjdk.api.frontend.OpenApiDocs
+import net.adoptopenjdk.api.persistence.dataSources.APIDataStore
+import net.adoptopenjdk.api.models.dataSources.SortOrder
+import net.adoptopenjdk.api.models.dataSources.filters.BinaryFilter
+import net.adoptopenjdk.api.models.dataSources.filters.ReleaseFilter
+import net.adoptopenjdk.api.models.dataSources.filters.VersionRangeFilter
+import net.adoptopenjdk.api.models.models.*
 import org.eclipse.microprofile.openapi.annotations.Operation
 import org.eclipse.microprofile.openapi.annotations.enums.SchemaType
 import org.eclipse.microprofile.openapi.annotations.media.Content

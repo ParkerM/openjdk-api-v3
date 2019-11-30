@@ -1,4 +1,4 @@
-package net.adoptopenjdk.api.v3.models
+package net.adoptopenjdk.api.models.models
 
 import org.eclipse.microprofile.openapi.annotations.media.Schema
 import java.time.LocalDateTime

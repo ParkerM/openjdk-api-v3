@@ -1,9 +1,9 @@
-package net.adoptopenjdk.api
+package net.adoptopenjdk.api.updater
 
 import kotlinx.coroutines.runBlocking
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.GHAsset
-import net.adoptopenjdk.api.v3.mapping.upstream.UpstreamBinaryMapper
-import net.adoptopenjdk.api.v3.models.ImageType
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.GHAsset
+import net.adoptopenjdk.api.updater.mapping.upstream.UpstreamBinaryMapper
+import net.adoptopenjdk.api.models.models.ImageType
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

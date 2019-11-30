@@ -1,12 +1,12 @@
-package net.adoptopenjdk.api.v3.dataSources.github.graphql.models
+package net.adoptopenjdk.api.updater.dataSources.github.graphql.models
 
 import com.fasterxml.jackson.annotation.JsonCreator
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
-import net.adoptopenjdk.api.v3.models.Architecture
-import net.adoptopenjdk.api.v3.models.ImageType
-import net.adoptopenjdk.api.v3.models.OperatingSystem
-import net.adoptopenjdk.api.v3.models.VersionData
+import net.adoptopenjdk.api.models.models.Architecture
+import net.adoptopenjdk.api.models.models.ImageType
+import net.adoptopenjdk.api.models.models.OperatingSystem
+import net.adoptopenjdk.api.models.models.VersionData
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class GHVersion @JsonCreator constructor(

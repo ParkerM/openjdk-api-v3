@@ -1,7 +1,7 @@
-package net.adoptopenjdk.api.v3.dataSources.github.graphql.clients
+package net.adoptopenjdk.api.updater.dataSources.github.graphql.clients
 
 import io.aexp.nodes.graphql.GraphQLRequestEntity
-import net.adoptopenjdk.api.v3.dataSources.github.graphql.models.*
+import net.adoptopenjdk.api.updater.dataSources.github.graphql.models.*
 import org.slf4j.LoggerFactory
 
 
