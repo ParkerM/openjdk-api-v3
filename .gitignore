@@ -6,3 +6,4 @@ adoptopenjdk-api.iml
 .idea
 *.iml
 *.log
+build/
