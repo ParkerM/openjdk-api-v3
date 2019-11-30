@@ -28,18 +28,18 @@ subprojects {
     apply(plugin = "io.quarkus")
 
     dependencies {
-        implementation(enforcedPlatform("io.quarkus:quarkus-universe-bom:${rootProject.ext.get("quarkusVersion")}"))
+        implementation(enforcedPlatform("io.quarkus:quarkus-universe-bom:${rootProject.ext["quarkusVersion"]}"))
         implementation("com.google.guava:guava")
         implementation("io.quarkus:quarkus-kotlin")
         implementation("io.quarkus:quarkus-resteasy")
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-        implementation("org.slf4j:slf4j-api:${rootProject.ext.get("slf4jVersion")}")
-        implementation("ch.qos.logback:logback-classic:${rootProject.ext.get("logbackVersion")}")
-        implementation("ch.qos.logback:logback-core:${rootProject.ext.get("logbackVersion")}")
+        implementation("org.slf4j:slf4j-api:${rootProject.ext["slf4jVersion"]}")
+        implementation("ch.qos.logback:logback-classic:${rootProject.ext["logbackVersion"]}")
+        implementation("ch.qos.logback:logback-core:${rootProject.ext["logbackVersion"]}")
 
         testImplementation("io.quarkus:quarkus-junit5")
         testImplementation("io.rest-assured:rest-assured")
-        testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${rootProject.ext.get("kotlinVersion")}")
+        testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${rootProject.ext["kotlinVersion"]}")
 
         nativeTestImplementation("io.quarkus:quarkus-junit5")
         nativeTestImplementation("io.rest-assured:rest-assured")
