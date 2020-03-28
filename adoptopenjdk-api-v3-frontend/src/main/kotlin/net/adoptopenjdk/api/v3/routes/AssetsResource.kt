@@ -189,7 +189,11 @@ class AssetsResource {
         val releaseFilter = ReleaseFilter(release_type, null, null, vendor, range)
         val binaryFilter = BinaryFilter(os, arch, image_type, jvm_impl, heap_size, project)
 
-        val releases = APIDataStore.getAdoptRepos().getFilteredReleases(releaseFilter, binaryFilter, order)
+        var releases = APIDataStore.getAdoptRepos().getFilteredReleases(releaseFilter, binaryFilter, order)
+
+        if (lts!!) {
+            releases = releases.filter { release -> APIDataStore.variants.ltsVersions.contains(release.version_data.major) }
+        }
 
         return getPage(pageSize, page, releases)
     }

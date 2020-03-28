@@ -53,6 +53,12 @@ abstract class AssetsPathTest : BaseTest() {
         return runFilterTest("heap_size", HeapSize.values())
     }
 
+    @TestFactory
+    fun filtersLts(): Stream<DynamicTest> {
+        val ltsOpts = arrayOf(true, false)
+        return runFilterTest("lts", ltsOpts)
+    }
+
 
     protected fun <T> createTest(values: Array<T>, path: String, filterParamName: String, exclude: (element: T) -> Boolean = { false }): List<DynamicTest> {
         return values
