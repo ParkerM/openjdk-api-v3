@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/setup-java@v1
       with:
-        java-version: '11.0.3'
+        java-version: '11.0.6'
         java-package: jdk
         architecture: x64
     - uses: actions/checkout@v1
