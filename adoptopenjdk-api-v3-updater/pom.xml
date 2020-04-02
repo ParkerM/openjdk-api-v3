@@ -16,6 +16,14 @@
         <main.class>net.adoptopenjdk.api.v3.V3Updater</main.class>
     </properties>
 
+
+    <repositories>
+        <repository>
+            <id>bintray-americanexpress-maven</id>
+            <url>https://dl.bintray.com/americanexpress/maven</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
