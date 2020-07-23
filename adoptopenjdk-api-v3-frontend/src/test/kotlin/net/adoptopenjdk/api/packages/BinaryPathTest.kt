@@ -12,6 +12,8 @@ import net.adoptopenjdk.api.v3.models.ReleaseType
 import net.adoptopenjdk.api.v3.models.Vendor
 import org.hamcrest.Matchers
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.ValueSource
 
 @QuarkusTest
 class BinaryPathTest : PackageEndpointTest() {
@@ -85,9 +87,10 @@ class BinaryPathTest : PackageEndpointTest() {
             .header("content-disposition", Matchers.equalTo("""attachment; filename="OpenJDK8U-jdk_x64_linux_hotspot_8u212b04.tar.gz"; filename*=UTF-8''OpenJDK8U-jdk_x64_linux_hotspot_8u212b04.tar.gz"""))
     }
 
-    @Test
-    fun nonGradleHeadRequestToVersionGives307() {
-        val path = getVersionPath("jdk8u212-b04", OperatingSystem.linux, Architecture.x64, ImageType.jdk, JvmImpl.hotspot, HeapSize.normal, Vendor.adoptopenjdk, Project.jdk)
+    @ParameterizedTest
+    @ValueSource(strings = ["jdk8u212-b04", "jdk-11.0.6+10"])
+    fun nonGradleHeadRequestToVersionGives307(releaseName: String) {
+        val path = getVersionPath(releaseName, OperatingSystem.linux, Architecture.x64, ImageType.jdk, JvmImpl.hotspot, HeapSize.normal, Vendor.adoptopenjdk, Project.jdk)
 
         RestAssured.given()
             .`when`()

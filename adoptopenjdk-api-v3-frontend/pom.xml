@@ -61,6 +61,11 @@
             </exclusions>
         </dependency>
         <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>net.adoptopenjdk.api</groupId>
             <artifactId>adoptopenjdk-api-v3-updater</artifactId>
             <version>${project.version}</version>
